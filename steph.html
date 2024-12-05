@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Chu Stephen Fuh</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                              Portfolio
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Services
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Chu Stephen Fuh</h1>
+                <h4 class="sub-heading">
+                    A DevOps Automation Engineer with 3 years of Experience.
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <a href="mailto: fuhchu39@gmail.com?subject=Job Opportunity&body=Hello, I am interested in hiring you!" class="btn common-btn">Hire Me</a>
+                <a href="images/DevOps.pdf" class="btn ghost-btn">Get Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Featured Portfolio</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/Test Automation 2021 Trends.jfif" 
+                                 alt="Automation image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Automation Tools</h3>
+                        <p class="small-para blue-text">Ansible, Chef, Puppet, Terraform</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/cicd.jfif" 
+                                 alt="ci/cd Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            CI/CD
+                          </h3>
+                        <p class="small-para blue-text">Jenkins, GitLab CI/CD, CircleCI</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/Containers.jfif" alt="containers Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Containerization</h3>
+                        <p class="small-para blue-text">Docker, Kubernetes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/cloud platforms.jfif" 
+                                 alt="Clouds Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Cloud Platforms
+                          </h3>
+                        <p class="small-para blue-text">AWS, Azure, GCP</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/scripting.jfif" 
+                                 alt="Wscripting Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Scripting and Programming
+                          </h3>
+                        <p class="small-para blue-text">
+                            Python, Bash, Go, or JavaScript
+                          </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/monitoring tools.jfif" 
+                                 alt="monitoring tools Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Monitoring Tools
+                          </h3>
+                        <p class="small-para blue-text">Monitoring Tools</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+                Experienced DevOps Automation Engineer a strong background in designing and implementing 
+automated solutions to enhance software delivery, 
+testing, and deployment processes. 
+Demonstrated success in building and optimizing CI/CD pipelines,
+ automating infrastructure 
+provisioning, and creating robust automated testing frameworks that improve efficiency and 
+minimize errors. 
+            </p>
+            <p>
+                Collaborates with cross-functional teams to improve test coverage and ensure the 
+                release of high-quality software through automated regression,
+                 performance, and integration testing. 
+                Committed to driving innovation, increasing operational efficiency,
+                 and delivering reliable, high 
+                performing applications in fast-paced environments.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="./Images/stephen.png" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Automation of Multi-Cloud Infrastructure</h3>
+                        <p class="small-para">
+                            Managing infrastructure across AWS and Azure manually led to inconsistencies, delays,
+                             and increased operational overhead.
+                            I Designed reusable Terraform modules to standardize infrastructure deployment.
+                            Automated configuration management using Ansible for consistent provisioning across environments.
+                            Implemented infrastructure as code (IaC) best practices with version control (Git).                             
+                        </p>
+                        <p class="small-para">
+                            It Reduced deployment time by 70%.
+                            Improved environment consistency and reduced configuration drift.
+                            Technologies Used: Terraform, Ansible, AWS, Azure.
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            CI/CD Pipeline Setup for Microservices
+                          </h3>
+                        <p class="small-para">
+                            The organization faced delays in deploying microservices due to manual testing and deployment processes.
+                            I Created a fully automated CI/CD pipeline using Jenkins integrated with GitHub Actions.
+                            Used Docker to containerize applications and deployed them to Kubernetes clusters managed by Helm charts.
+                            Integrated unit testing, integration testing, and code quality checks into the pipeline.
+                        </p>
+                        <p class="small-para">
+                            It Reduced deployment time by 60%.
+                            Increased deployment frequency from bi-weekly to daily.
+                            Ensured 100% test coverage in automated pipelines.
+                            Technologies Used: Jenkins, Docker, Kubernetes, Helm, GitHub Actions.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Infrastructure Monitoring and Alerting</h3>
+                        <p class="small-para">
+                            The lack of a comprehensive monitoring system resulted in delays in identifying and resolving production issues
+                            We Deployed Prometheus and set up custom alert rules to monitor server health, application performance, and resource utilization.
+                            Created dashboards in Grafana to visualize critical metrics for stakeholders.
+                            Integrated ELK Stack (Elasticsearch, Logstash, and Kibana) for centralized log management.                            
+                        </p>
+                        <p class="small-para">
+                            It Reduced mean time to resolution (MTTR) by 40%.
+                            Enabled proactive issue detection and resolution before impacting users.
+                            Improved overall system reliability and stakeholder confidence.
+                            Technologies Used: Prometheus, Grafana, ELK Stack.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Disaster Recovery Automation
+                          </h3>
+                        <p class="small-para">
+                            Ensuring business continuity during server failures was a manual process, causing extended downtime.
+                            We Automated disaster recovery workflows using AWS Lambda and Terraform.
+                            Scheduled regular backups of infrastructure and databases to S3 buckets with lifecycle management policies.
+                            Deployed cross-region replication for high availability and failover.
+
+                        </p>
+                        <p class="small-para">
+                            Reduced recovery time from 4 hours to under 30 minutes.
+                            Ensured 99.99% system uptime across all production services.
+                            Technologies Used: AWS Lambda, Terraform, S3, CloudFormation.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Security Hardening and Compliance Automation
+                          </h3>
+                        <p class="small-para">
+                            The team struggled to meet compliance requirements (e.g., SOC 2, ISO 27001) due to manual security checks.
+                            Automated security scans using AWS Config rules and Terraform Sentinel policies.
+                            Integrated OWASP ZAP into the CI/CD pipeline to detect vulnerabilities in real-time.
+                            Used HashiCorp Vault for secure secrets management.
+
+                        </p>
+                        <p class="small-para">
+                                Achieved 100% compliance with security standards.
+                                Reduced the time spent on security audits by 50%.
+                                Minimized production vulnerabilities by detecting and remediating issues pre-deployment.
+                                Technologies Used: Terraform Sentinel, AWS Config, OWASP ZAP, HashiCorp Vault.
+                        </p>
+                    </div>
+                </div>
+                <!--<div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text"> fuhchu39@gmail.com
+                    </p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+237 671979484</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">WHATS APP</h5>
+                    <p class="contact-text">+237 671979484</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">05000,</p>
+                    <p> Delegacion Cuajimalpa De Morelos,</p>
+                    <p> Mexico City CMX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2025 All rights reserved 
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
